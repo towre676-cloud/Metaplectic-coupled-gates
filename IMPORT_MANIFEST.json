@@ -1,0 +1,57 @@
+{
+  "schema": "recovered-research-source-import-v1",
+  "repository": "Metaplectic-coupled-gates",
+  "source_archives": [
+    {
+      "name": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "sha256": "94a6d34a5f7697aecce9cc3eef28885dbbe1df69d2b226906d973dcd90fbae36",
+      "bytes": 17711,
+      "destination": "."
+    }
+  ],
+  "files": [
+    {
+      "path": "coupled_candidate.json",
+      "sha256": "01242291c85a2d0ffede6068ea5e943144f320d79fff877e063868c89a8ee80d",
+      "bytes": 2832,
+      "archive": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "storage": "direct"
+    },
+    {
+      "path": "coupled_candidate.py",
+      "sha256": "351314f5280382c3ffcdbf6ff448aa55ed74e240f64659310761020b8bdb6929",
+      "bytes": 5357,
+      "archive": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "storage": "direct"
+    },
+    {
+      "path": "replay.log",
+      "sha256": "a4b4b38952b4535b2737623714423bc9294a2ddf8bb9f4a4e4bc4c0fcbf37036",
+      "bytes": 5197,
+      "archive": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "storage": "direct"
+    },
+    {
+      "path": "report.html",
+      "sha256": "5e57062fbf7cd32775b0d2245b8dbeb15ee24fb2e6a8b677a565460eb1670fb2",
+      "bytes": 14952,
+      "archive": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "storage": "direct"
+    },
+    {
+      "path": "results.json",
+      "sha256": "ad9e21c7ca7b47d79ea5ef346bf4ff89ccc4fbd93152002c56db7038732bfc81",
+      "bytes": 2365,
+      "archive": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "storage": "direct"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "bd619db5d09bd56f9395bb4caeac94c3bfc7547099cf4227ba436d7fe573442e",
+      "bytes": 7576,
+      "archive": "Metaplectic_Coupled_Gate_Research_2026-11-04.zip",
+      "storage": "direct"
+    }
+  ],
+  "fresh_replay": "See FRESH_VALIDATION.json; historical receipts are retained separately."
+}

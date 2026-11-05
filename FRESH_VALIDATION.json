@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "scope": "Selected fresh checks only; not full historical replay.",
+  "checks": {
+    "verify.py": {
+      "status": "PASS"
+    },
+    "coupled_candidate.py": {
+      "status": "PASS",
+      "physical_gate_certificate": false
+    }
+  }
+}

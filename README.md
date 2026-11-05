@@ -1,3 +1,5 @@
 # Metaplectic-coupled-gates
 
-Recovered research source, verification programs, and retained evidence. The original scope and proof-status notes remain authoritative. See IMPORT_MANIFEST.json and SOURCE_STATUS.md for the import inventory and replay limits.
+The coupled candidate is conditional. Physical fusion-tree/gauge identification, projector/filter embedding, and other measurement branches remain open. It is not a realizable or deterministic gate certificate.
+
+Start with [SOURCE_STATUS.md](SOURCE_STATUS.md), [IMPORT_MANIFEST.json](IMPORT_MANIFEST.json), and the README and verification programs in each recovered package. Run `python restore_evidence.py` before replay.

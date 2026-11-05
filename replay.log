@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "exact_checks": [
+    "unitarity of three B4 generators",
+    "two Artin relations and far commutation",
+    "published Fourier, X, Z braid words up to phase",
+    "fusion powers",
+    "Wigner normalization and negative mass"
+  ],
+  "projective_braid_image_numeric": 3000,
+  "fusion_powers": {
+    "3": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      2
+    ],
+    "4": [
+      3,
+      2,
+      5,
+      5,
+      0,
+      0
+    ],
+    "6": [
+      13,
+      12,
+      25,
+      25,
+      0,
+      0
+    ],
+    "8": [
+      63,
+      62,
+      125,
+      125,
+      0,
+      0
+    ]
+  },
+  "six_vacuum_dimension": 13,
+  "six_triple_decomposition": [
+    9,
+    4
+  ],
+  "six_pair_charge_projector_ranks": [
+    3,
+    5,
+    5
+  ],
+  "resource_success_probability": "4/5",
+  "expected_fresh_attempts": "5/4",
+  "resource_amplitudes": [
+    0,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "wigner_table": [
+    [
+      0.2,
+      -0.04999999999999999,
+      -0.049999999999999975,
+      -0.05,
+      -0.049999999999999975
+    ],
+    [
+      0.15,
+      0.08090169943749474,
+      -0.030901699437494722,
+      -0.03090169943749472,
+      0.08090169943749471
+    ],
+    [
+      0.15,
+      -0.030901699437494733,
+      0.08090169943749474,
+      0.08090169943749471,
+      -0.03090169943749469
+    ],
+    [
+      0.15,
+      -0.030901699437494733,
+      0.08090169943749474,
+      0.08090169943749471,
+      -0.03090169943749469
+    ],
+    [
+      0.15,
+      0.08090169943749474,
+      -0.030901699437494722,
+      -0.03090169943749472,
+      0.08090169943749471
+    ]
+  ],
+  "negative_mass": "1/sqrt(5)",
+  "wigner_L1": "1+2/sqrt(5)",
+  "max_stabilizer_fidelity_numeric": 0.7999999999999999,
+  "flat_stabilizer_bases_exact": 0,
+  "one_copy_Clifford_rotated_SUM_Z_injection": "No unitary branch on the full five-dimensional qupit",
+  "naive_SUM_Z_injection_branch_ranks": [
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "limitations": [
+    "Four-spinor calculation is in the published Cui-Wang category/gauge, not yet matched to AFT/DAZ lifts.",
+    "Coherent vacuum/nonvacuum measurement is assumed; resolving y1/y2 then deleting the record is a different channel.",
+    "Resource state does not establish a unitary gate, deterministic injection, or universality.",
+    "No coupled six-spinor braid/measurement search has been performed."
+  ]
+}
+{
+  "status": "CONDITIONAL CANDIDATE, NOT A PHYSICAL GATE CERTIFICATE",
+  "gaussian_B6_exact_checks": "local and all shifted cross Artin relations in Q(zeta_5)",
+  "space": "simultaneous-inversion even subspace of C^5 tensor C^5, dimension 13",
+  "code": "span(e_1,e_2) on data; ancilla (e_1+e_2)/sqrt(2); e_j=(|j>+|-j>)/sqrt(2)",
+  "cross_generator": "G3 |x,y> = zeta_5^((x+y)^2) |x,y>",
+  "ideal_return_effect": "ancilla |+><+| for algebraic witness; |minus><minus| gives the same branch with minus input",
+  "kraus": "diag(sqrt(5)-zeta_5, sqrt(5)-zeta_5^-1)/4",
+  "success_probability": "(7+sqrt(5))/32",
+  "success_probability_numeric": 0.28862712429686843,
+  "eigenvalue_ratio": "(sqrt(5)-zeta_5^-1)/(sqrt(5)-zeta_5)",
+  "infinite_projective_order": "exact nonmembership in the 10 roots of unity of Q(zeta_5)",
+  "finite_filter_protocol": "ancilla |minus>; G3; project triple totals s,s; apply A^n to ancilla; measure/consume ancilla and average its two phi outcomes",
+  "finite_filter_accepted_channel": "(p U rho U^dagger + 25^-n q V rho V^dagger)/(p+25^-n q)",
+  "p": "(7+sqrt(5))/32",
+  "q": "(5-sqrt(5))/32",
+  "finite_protocol_checks": [
+    {
+      "filter_rounds": 0,
+      "success_probability": 0.375,
+      "conditional_wrong_unitary_weight": 0.23032766854168418,
+      "diamond_error_upper_bound": 0.46065533708336837
+    },
+    {
+      "filter_rounds": 1,
+      "success_probability": 0.2920820393249937,
+      "conditional_wrong_unitary_weight": 0.011828577464433032,
+      "diamond_error_upper_bound": 0.023657154928866064
+    },
+    {
+      "filter_rounds": 2,
+      "success_probability": 0.28876532089799345,
+      "conditional_wrong_unitary_weight": 0.00047857755458741033,
+      "diamond_error_upper_bound": 0.0009571551091748207
+    },
+    {
+      "filter_rounds": 3,
+      "success_probability": 0.28863265216091344,
+      "conditional_wrong_unitary_weight": 1.9151901226749017e-05,
+      "diamond_error_upper_bound": 3.8303802453498034e-05
+    },
+    {
+      "filter_rounds": 4,
+      "success_probability": 0.28862734541143026,
+      "conditional_wrong_unitary_weight": 7.660901342692396e-07,
+      "diamond_error_upper_bound": 1.5321802685384793e-06
+    },
+    {
+      "filter_rounds": 5,
+      "success_probability": 0.2886271331414509,
+      "conditional_wrong_unitary_weight": 3.0643627907519375e-08,
+      "diamond_error_upper_bound": 6.128725581503875e-08
+    }
+  ],
+  "remaining": [
+    "Identify this Gaussian module and code with the selected physical six-spinor fusion tree and gauge.",
+    "Certify the s,s triple-charge projector and A-filter embedding in that same physical gauge. The finite-filter construction removes the need to assume an exact resource-line projector.",
+    "Record and handle every other measurement branch; postselection here is not deterministic feedforward."
+  ]
+}
